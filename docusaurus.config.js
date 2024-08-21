@@ -59,9 +59,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Macblox',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'My Site Logo',36
           src: 'img/logo.svg',
         },
         items: [
@@ -91,7 +91,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `*Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
