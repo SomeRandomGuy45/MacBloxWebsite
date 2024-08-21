@@ -61,7 +61,7 @@ const config = {
       navbar: {
         title: 'Macblox',
         logo: {
-          alt: 'My Site Logo',36
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
