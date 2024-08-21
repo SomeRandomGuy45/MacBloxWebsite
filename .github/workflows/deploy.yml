@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: deploy
 
 # Controls when the workflow will run
 on:
@@ -10,10 +10,8 @@ on:
   pull_request:
     branches: [ "main" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Thanks to https://github.com/LayZeeDK/github-pages-docusaurus for info!
 jobs:
   deploy:
     environment:
@@ -30,8 +28,7 @@ jobs:
           node-version: 16.x
           cache: yarn
       - name: Install dependencies
-        run: cd Macblox 
-             yarn install --frozen-lockfile --non-interactive
+        run: yarn install --frozen-lockfile --non-interactive
       - name: Build
         run: yarn build
       # 👆 Build steps
