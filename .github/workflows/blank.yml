@@ -30,10 +30,10 @@ jobs:
           node-version: 16.x
           cache: yarn
       - name: Install dependencies
-        run: yarn install --frozen-lockfile --non-interactive
+        run: cd Macblox 
+             yarn install --frozen-lockfile --non-interactive
       - name: Build
-        run: cd Macblox
-            yarn build
+        run: yarn build
       # 👆 Build steps
       - name: Setup Pages
         uses: actions/configure-pages@v3
