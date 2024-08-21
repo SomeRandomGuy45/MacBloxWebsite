@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Macblox
-Maclox is basically bloxstrap but for macos!
+# Intro
+Maclox is basically bloxstrap but for macOS!
