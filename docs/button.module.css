@@ -1,0 +1,13 @@
+h1 {
+    margin-bottom: 20px; /* Reduce this value */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px; /* Reduce this value */
+  }
+  
+  .buttons .button {
+    margin-top: 0; /* Ensure no additional margin on the button itself */
+  }
