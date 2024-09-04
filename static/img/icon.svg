@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+  width="200px" 
+  height="200px" 
+  viewBox="0 0 18 18" 
+  version="1.1" 
+  id="square" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient 
+      id="purple-green-gradient" 
+      gradientUnits="userSpaceOnUse" 
+      x1="0%" 
+      y1="0%" 
+      x2="100%" 
+      y2="100%"
+    >
+      <stop offset="0%" stop-color="#6495ED"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+  </defs>
+  <g transform="scale(0.9) translate(1.5, 1.5)">
+   <path 
+      fill="url(#purple-green-gradient)" 
+      transform="rotate(-155 6 10) translate(-4.25 10) scale(1.15)"
+      d="M12.5,7H2.5C2.22386,7,2,6.77614,2,6.5V2.5C2,2.22386,2.22386,2,2.5,2h3.5v0.7H5.5c-0.27614,0-0.5,0.22386-0.5,0.5v0.6H10v-0.6c0-0.27614,0.22386-0.5,0.5-0.5H9v-0.7H12.5c0.27614,0,0.5,0.22386,0.5,0.5v4C13,6.77614,12.77614,7,12.5,7z"
+    />
+    <path 
+      fill="url(#purple-green-gradient)" 
+      transform="rotate(25 6 10) translate(-1 6.5) scale(1.15)"
+      d="M12.5,7H2.5C2.22386,7,2,6.77614,2,6.5V2.5C2,2.22386,2.22386,2,2.5,2h3.5v0.7H5.5c-0.27614,0-0.5,0.22386-0.5,0.5v0.6H10v-0.6c0-0.27614,0.22386-0.5,0.5-0.5H9v-0.7H12.5c0.27614,0,0.5,0.22386,0.5,0.5v4C13,6.77614,12.77614,7,12.5,7z"
+    />
+  </g>
+</svg>
