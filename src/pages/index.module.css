@@ -4,11 +4,16 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  min-height: calc(100vh - 100px); /* Ensures the heroBanner takes up the remaining height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(135deg, #6495ED, #8A2BE2); /* Adds a diagonal gradient */
+  color: white; /* Ensures the text is readable on the gradient background */
 }
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {
@@ -20,4 +25,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.container {
+  text-align: center;
 }
