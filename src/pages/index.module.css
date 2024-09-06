@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   min-height: calc(100vh - 100px); /* Ensures the heroBanner takes up the remaining height */
   display: flex;
   flex-direction: column;
@@ -14,10 +14,14 @@
   color: white; /* Ensures the text is readable on the gradient background */
 }
 
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+  }
+
+  .buttons {
+    flex-direction: column; /* Stacks the buttons vertically */
+    gap: 10px; /* Adjust the gap between the buttons */
   }
 }
 
