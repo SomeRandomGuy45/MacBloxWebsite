@@ -20,7 +20,7 @@ function returnSpan(type, customMessage)
     return (
       <span className={styles.badge}>
           <span className={styles.icon}>⚠️</span>
-          <span className={styles.label}>customMessage</span>
+          <span className={styles.label}>{customMessage}</span>
       </span>
     );
   }
