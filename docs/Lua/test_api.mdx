@@ -1,0 +1,42 @@
+import DeprecatedBadge from '@site/src/components/DeprecatedBadge.js';
+
+# List of APIs
+### List of apis that you can use.
+## test_api
+```lua
+test_api() -> void
+```
+Prints [INFO-LUA] test_api!
+## isDiscordRunning
+```lua
+isDiscordRunning() -> bool
+```
+Return's if discord is running
+## updDiscordActivity
+```lua
+updDiscordActivity(
+    details : string,
+    state : string,
+    startTimestamp : number, 
+    endTimestamp : number,
+    assetLarge : string,
+    assetSmall : string,
+    largeImgText : string,
+    smallImageText : string,
+    button1Text : string,
+    button2Text : string,
+    button1url : string,
+    button2url : string,
+) -> void
+```
+Updates the users discord activity
+## createNotification
+```lua
+createNotification(title : string, message : string, timeout : number) -> void
+```
+Creates a notification with a timeout
+## runCommand
+```lua
+runCommand(command : string) -> void
+```
+Runs a system command.

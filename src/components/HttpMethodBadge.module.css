@@ -1,0 +1,61 @@
+/* HttpMethodBadge.module.css */
+
+/* Default Light Mode Styles */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.method {
+    font-size: 0.9rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.get {
+    background-color: #28a745; /* Green for GET */
+}
+
+.post {
+    background-color: #007bff; /* Blue for POST */
+}
+
+.put {
+    background-color: #ffc107; /* Yellow for PUT */
+}
+
+.delete {
+    background-color: #dc3545; /* Red for DELETE */
+}
+
+.url {
+    font-size: 0.9rem;
+    color: #333; /* Dark text in light mode */
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: #333; /* Dark background */
+    }
+
+    .url {
+        color: #ddd; /* Light text for dark mode */
+    }
+}
+
+/* Alternatively, you can use the .theme-dark class that Docusaurus adds when dark mode is active */
+.theme-dark .container {
+    background-color: #333; /* Dark background */
+}
+
+.theme-dark .url {
+    color: #ddd; /* Light text in dark mode */
+}
