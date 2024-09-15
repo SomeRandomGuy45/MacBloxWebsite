@@ -1,19 +1,19 @@
 import DeprecatedBadge from '@site/src/components/DeprecatedBadge.js';
 
-# List of APIs
-### List of apis that you can use.
+# Main list of APIs
+### Main list of APIs that you can use.
 ## test_api
-```lua
+```cpp
 test_api() -> void
 ```
-Prints [INFO-LUA] test_api!
+Prints ```[INFO-LUA] test_api! ```
 ## isDiscordRunning
-```lua
+```cpp
 isDiscordRunning() -> bool
 ```
 Return's if discord is running
 ## updDiscordActivity
-```lua
+```cpp
 updDiscordActivity(
     details : string,
     state : string,
@@ -31,12 +31,24 @@ updDiscordActivity(
 ```
 Updates the users discord activity
 ## createNotification
-```lua
+```cpp
 createNotification(title : string, message : string, timeout : number) -> void
 ```
 Creates a notification with a timeout
 ## runCommand
-```lua
+<DeprecatedBadge type="dangerous" customMessage="This command is very dangerous">
+</DeprecatedBadge>
+```cpp
 runCommand(command : string) -> void
 ```
 Runs a system command.
+## getDataFromURL
+```cpp
+getDataFromURL(url : string) -> string
+```
+Get's data from a url
+## decodeJSON
+```cpp
+decodeJSON(json : string) -> {[name : string], [value : any]}
+```
+Decodes a JSON string (will be replaced in v1.0.1)

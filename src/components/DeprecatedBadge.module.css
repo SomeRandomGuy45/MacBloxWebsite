@@ -12,6 +12,18 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.dangerous_badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f12424; /* Orange background */
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
   
 .icon {
     margin-right: 6px;
@@ -27,5 +39,9 @@
     .badge {
       background-color: #ff6b3f; /* Lighter orange for dark mode */
       color: white;
+    }
+    .dangerous_badge {
+        background-color: #f12424; /* Lighter orange for dark mode */
+        color: white;
     }
 }
