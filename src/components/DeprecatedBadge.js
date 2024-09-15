@@ -15,6 +15,15 @@ function returnSpan(type, customMessage)
       </span>
     );
   }
+  else if (type == "dangerous" != 0 && customMessage.length > 0) 
+  {
+    return (
+      <span className={styles.dangerous_badge}>
+          <span className={styles.icon}>⚠️</span>
+          <span className={styles.label}>Dangerous function</span>
+      </span>
+    );
+  }
   else if (customMessage.length > 0)
   {
     return (
